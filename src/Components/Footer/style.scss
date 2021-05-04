@@ -1,0 +1,73 @@
+footer {
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 11rem;
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+        .login_form {
+            h1 {
+                text-align: center;
+            }
+            .error_message {
+                color: red;
+                font-size: 12px;
+                margin-top: -1rem;
+                margin-bottom: 2rem;
+            }
+            margin-top: -2rem;
+            .fa-register {
+                margin-left: 2.5rem;
+                margin-bottom: 0;
+                .Registration {
+                    margin-left: 1rem;
+                    color: #13aa57;
+                    cursor: pointer;
+                }
+            }
+            form {
+                margin: 0 auto;
+                width: 50%;
+            }
+            .input-container {
+                margin-bottom: 1.5rem;
+                .label {
+                    margin-bottom: 0.25rem;
+                    font-size: 12px;
+                }
+            }
+            input {
+                margin-top: 0.275rem;
+                font-size: 15px;
+                font-weight: 500;
+                display: block;
+                width: 100%;
+                padding: 15px 1rem;
+                line-height: 1.5;
+                color: #495057;
+                border: 1.6px solid #e5e5e5;
+                border-radius: 0.5rem;
+                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            }
+            .form-button {
+                font-size: 15px;
+                font-weight: 500;
+                display: block;
+                width: 106%;
+                padding: 15px 1rem;
+                line-height: 1.5;
+                color: #ffffff;
+                background: #13aa57;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            }
+        }
+    }
+}

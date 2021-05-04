@@ -1,0 +1,47 @@
+main {
+    width: 90%;
+    margin: 0 auto;
+    .h1 {
+        margin-left: 6rem;
+        margin-top: 5rem;
+    }
+}
+
+main {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+main {
+    .container {
+        .bg-container {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+            img {
+                border-radius: 50%;
+                height: 200px;
+            }
+        }
+    }
+}
+
+main {
+    .container {
+        .margin {
+            display: flex;
+            flex-direction: row;
+            .card {
+                margin-left: 4.3rem;
+            }
+            img {
+                border-radius: 50%;
+                height: 200px;
+            }
+        }
+    }
+}
