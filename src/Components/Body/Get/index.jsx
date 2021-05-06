@@ -8,7 +8,9 @@ const Get = () => {
     return (
         <>
             <main>
-                <h1 className='h1'>Get in touch with our experts!</h1>
+                <div className='color'></div>
+                <div>
+                    <h1 className='h1'>Get in touch with our experts!</h1>
                 <div className='container'>
                     <div className='bg-container'>
                         <div>
@@ -46,6 +48,7 @@ const Get = () => {
                             <p>Mail - Soeren.Schrader@umlaut.com</p>
                         </div>
                     </div>
+                </div>
                 </div>
             </main>
         </>

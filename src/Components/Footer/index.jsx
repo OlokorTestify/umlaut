@@ -13,15 +13,15 @@ const Footer = () => {
         last_name: Yup.string().required("Please enter your last name"),
     });
   
-  const { isLoading, error, data } = useQuery('repoData', () =>
-     fetch('https://api.github.com/repos/tannerlinsley/react-query').then(res =>
-       res.json()
-     )
-   )
+  // const { isLoading, error, data } = useQuery('repoData', () =>
+  //    fetch('https://api.github.com/repos/tannerlinsley/react-query').then(res =>
+  //      res.json()
+  //    )
+  //  )
  
-   if (isLoading) return 'Loading...'
+  //  if (isLoading) return 'Loading...'
  
-   if (error) return 'An error has occurred: ' + error.message
+  //  if (error) return 'An error has occurred: ' + error.message
     return (
         <>
         <footer>

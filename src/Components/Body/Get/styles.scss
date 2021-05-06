@@ -1,6 +1,16 @@
 main {
     width: 90%;
     margin: 0 auto;
+    .color {
+        position: absolute;
+        left: 0px;
+        top: 79rem;
+        width: 0.7rem;
+        height: 105%;
+        content: "";
+        z-index: 99;
+        background: rgb(0, 0, 0);
+    }
     .h1 {
         margin-left: 6rem;
         margin-top: 5rem;

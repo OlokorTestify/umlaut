@@ -14,8 +14,13 @@ function App() {
     <>
       <QueryClientProvider client={queryClient}>
         <Navbar />
-        <Body />
-        <Footer />
+        <div>
+          <div className='aside'><p>Industries - Energy & Utilities</p></div>
+          <div>
+            <Body />
+            <Footer />
+          </div>
+        </div>
       </QueryClientProvider>
         
     </>

@@ -6,7 +6,10 @@ const Header = () => {
     return (
         <>
             <header>
-                <h1>Energy & Utilities</h1>
+                <div className='color'></div>
+                <div className='color2'></div>
+                <div>
+                    <h1>Energy & Utilities</h1>
                 <div>
                     <img className='energy' src={Energy} alt='' />
                     <div className='para'>
@@ -15,6 +18,7 @@ const Header = () => {
                         <p className='p3'>Our end-to-end capabilities allow us to design strategies, business models and implementation roadmaps, but also to manage largescale projects, realise technical products, lower their costs, optimize the IT environment and security, and develop software.<br/></p>
                         <p className='p4'>With our unique mix of technical expertise and cross-industry capabilities, we are helping the energy industry to transform itself, its infrastructure and its employees’ capabilities to enable them to tackle the challenges of day-to-day business. Today - and in future.</p>
                     </div>
+                </div>
                 </div>
             </header>
         </>

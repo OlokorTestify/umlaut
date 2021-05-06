@@ -11,7 +11,9 @@ const Main = () => {
     return (
         <>
             <section>
-                <div className='container'>
+                <div className='color'></div>
+                <div>
+                    <div className='container'>
                     <div><img className='images' src={Interview} alt=''/></div>
                     <div className='bgn-card'>
                         <p>Interview</p>
@@ -50,6 +52,7 @@ const Main = () => {
                         <h1>'umlaut is your partner - even in tough <br/>times</h1>
                         <p className='p'>umlaut monitors the COVID-19 impact and provides customized and proven methods to guide and support companies through the crisis.</p>
                     </div>
+                </div>
                 </div>
             </section>
         </>
