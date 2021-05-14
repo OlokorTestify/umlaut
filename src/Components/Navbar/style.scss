@@ -9,6 +9,9 @@ nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        .hamburger {
+            cursor: pointer;
+        }
         .dropdown:hover .dropdown-content {
             display: block;
         }
@@ -35,6 +38,7 @@ nav {
             .dropbtn {
                 display: flex;
                 flex-direction: row;
+                cursor: pointer;
                 .btn {
                     margin-top: -0.2rem;
                 }

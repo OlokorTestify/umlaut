@@ -1,6 +1,46 @@
 main {
     width: 90%;
     margin: 0 auto;
+    .container {
+        display: flex;
+        flex-direction: column;
+        .margin {
+            display: flex;
+            flex-direction: row;
+            p {
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .phone {
+                text-decoration: underline;
+            }
+            .card {
+                margin-left: 1.5rem;
+            }
+            img {
+                border-radius: 50%;
+                height: 200px;
+            }
+        }
+        .bg-container {
+            display: flex;
+            flex-direction: row;
+            width: 40%;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+            p {
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .phone {
+                text-decoration: underline;
+            }
+            img {
+                border-radius: 50%;
+                height: 200px;
+            }
+        }
+    }
     .color {
         position: absolute;
         left: 0px;
@@ -14,44 +54,5 @@ main {
     .h1 {
         margin-left: 6rem;
         margin-top: 5rem;
-    }
-}
-
-main {
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-main {
-    .container {
-        .bg-container {
-            display: flex;
-            flex-direction: row;
-            width: 40%;
-            justify-content: space-between;
-            margin-bottom: 2rem;
-            img {
-                border-radius: 50%;
-                height: 200px;
-            }
-        }
-    }
-}
-
-main {
-    .container {
-        .margin {
-            display: flex;
-            flex-direction: row;
-            .card {
-                margin-left: 4.3rem;
-            }
-            img {
-                border-radius: 50%;
-                height: 200px;
-            }
-        }
     }
 }

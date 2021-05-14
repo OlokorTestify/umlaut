@@ -20,8 +20,8 @@ const Get = () => {
                             <h1>Christian Hille</h1>
                             <p>Managing Director</p>
                             <p>Europe</p>
-                            <p>Phone - +49 151 27654612</p>
-                            <p>Mail - Christian.Hille@umlaut.com</p>
+                            <p>Phone - <span className='phone'>+49 151 27654612</span></p>
+                            <p>Mail - <span className='phone'>Christian.Hille@umlaut.com</span></p>
                         </div>
                     </div>
                     <div className='bg-container'>
@@ -32,8 +32,8 @@ const Get = () => {
                             <h1>Jonas Kampik</h1>
                             <p>Managing Director</p>
                             <p>Europe</p>
-                            <p>Phone - +49 151 57133529</p>
-                            <p>Mail - Jonas.Kampik@umlaut.com</p>
+                            <p >Phone - <span className='phone'>+49 151 57133529</span></p>
+                            <p>Mail - <span className='phone'>Jonas.Kampik@umlaut.com</span></p>
                         </div>
                     </div>
                     <div className='margin'>
@@ -44,8 +44,8 @@ const Get = () => {
                             <h1>Sören Schrader</h1>
                             <p>Lead Partner Energy & Utilities</p>
                             <p>Americas</p>
-                            <p>Phone - +1 248 4508678</p>
-                            <p>Mail - Soeren.Schrader@umlaut.com</p>
+                            <p>Phone - <span className='phone'>+1 248 4508678</span></p>
+                            <p>Mail - <span className='phone'>Soeren.Schrader@umlaut.com</span></p>
                         </div>
                     </div>
                 </div>

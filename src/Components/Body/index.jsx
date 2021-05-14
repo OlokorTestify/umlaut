@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Get from './Get'
 import Main from './Main'
+import Marquee from './Marquee'
 import './style.scss'
 
 const Body = () => {
@@ -10,6 +11,7 @@ const Body = () => {
             <Header />
             <Get />
             <Main />
+            <Marquee />
         </>
     )
 }
